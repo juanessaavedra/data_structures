@@ -1,4 +1,9 @@
-import java.util.*;
+package tablas_hash;
+
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Hashtable;
+import java.util.List;
 
 public class SystemBook {
     private final Hashtable<String, Book> books;

@@ -1,3 +1,5 @@
+package tablas_hash;
+
 import java.util.Hashtable;
 import java.util.Scanner;
 

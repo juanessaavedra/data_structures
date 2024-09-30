@@ -1,4 +1,4 @@
-
+package tablas_hash;
 /*
 * La librería Universal decide crear un sistema automático que aconseje sobre libros a sus
 clientes. Para ello ha decidido crear una estructura de datos de libros a partir las cifras de
@@ -12,7 +12,8 @@ segura” (que dada la estructura de datos y un autor devuelve el libro con mejo
 ese autor), “listado” (que dada la estructura y una especialidad devuelve la lista de todos los
 libros de esa especialidad por orden de ventas).
 *  */
-import java.util.*;
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {

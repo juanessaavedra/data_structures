@@ -1,16 +1,15 @@
 package tablas_hash;
 
-import java.util.Hashtable;
-import java.util.Scanner;
+import java.util.*;
 
-public class Challenge4 {
+public class Challenge4Collections {
 
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         String opcion;
 
-        Hashtable<String, Integer> students = new Hashtable<>();
+        HashMap<String, Integer> students = new HashMap<>();
 
         do {
             System.out.println("Bienvenid@ \n 1. Agregar estudiante \n2. Consultar fallas \n3. Sacar promedio de fallas" +
@@ -55,9 +54,10 @@ public class Challenge4 {
                         students.put(nombreFalla, fallasActuales + 1);
                         System.out.println("Falla agregada al estudiante: " + nombreFalla + ". Este estudiante ahora tiene " +
                                 students.get(nombreFalla) + " fallas.");
+                    } else {
+                        System.out.println("El estudiante no está registrado, intente otra vez.");
                     }
 
-                    System.out.println("El estudiante no está registrado, intente otra vez.");
                     break;
                 case "5":
                     System.out.println("Saliendo del programa...");

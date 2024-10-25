@@ -9,7 +9,7 @@ public class Main {
         BufferedReader Teclado;
         Teclado=new BufferedReader(new InputStreamReader(System.in));
         int opc;
-        ListaSencilla lista = new ListaSencilla); // creando lista
+        ListaSencilla lista = new ListaSencilla(); // creando lista
         lista.iniciar_lista(); // solo se llama una sola vez a este metodo
         do{// menu principal
             System.out.println("1.Almacenar un Numero en la Lista");

@@ -24,4 +24,11 @@ class GenericClass {
         System.out.printf("Integer Value: %d\n\n", integerBox.getT());
         System.out.printf("String Value: %s\n", stringBox.getT());
     }
+
+    public <T> void printArray(T[] array) {
+        for (T element : array) {
+            System.out.println(element);
+        }
+    }
 }
+

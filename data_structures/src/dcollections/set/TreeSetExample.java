@@ -1,4 +1,4 @@
-package collections.set;
+package dcollections.set;
 
 public class TreeSetExample {
 }

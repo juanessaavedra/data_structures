@@ -1,4 +1,4 @@
-package collections.list;
+package dcollections.list;
 
 public class LinkedListExample {
 }

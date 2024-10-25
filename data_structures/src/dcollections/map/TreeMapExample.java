@@ -1,4 +1,4 @@
-package collections.map;
+package dcollections.map;
 
 public class TreeMapExample {
 }

@@ -16,4 +16,12 @@ public class Persona {
     public String getCedula() {
         return cedula;
     }
+
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", cedula='" + cedula + '\'' +
+                '}';
+    }
 }

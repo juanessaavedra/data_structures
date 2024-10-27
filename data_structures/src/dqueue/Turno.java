@@ -1,16 +1,17 @@
 package dqueue;
 
 public class Turno {
-    private int numero;
+    private int numeroTurno;
     private Persona persona;
+    private static int contador = 0;
 
-    public Turno(int numero, Persona persona) {
-        this.numero = numero;
+    public Turno(Persona persona) {
         this.persona = persona;
+        this.numeroTurno = ++contador;
     }
 
-    public int getNumero() {
-        return numero;
+    public int getNumeroTurno() {
+        return numeroTurno;
     }
 
     public Persona getPersona() {
@@ -19,6 +20,6 @@ public class Turno {
 
     @Override
     public String toString() {
-        return "Turno{" + "numero=" + numero + ", persona=" + persona + '}';
+        return "Turno{" + "numero=" + numeroTurno + ", persona=" + persona + '}';
     }
 }

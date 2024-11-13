@@ -22,6 +22,7 @@ public class Main {
             System.out.println("4. Salir");
             System.out.print(" Elige una opción: ");
             opcion = sc.nextInt();
+            
 
             switch (opcion) {
                 case 1:
